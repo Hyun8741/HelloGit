@@ -1,6 +1,7 @@
 package main;
 
 import calc.Calculator;
+import calc.S;
 
 public class Main {
 
@@ -24,6 +25,10 @@ public class Main {
 		 int addResult =  cal.add(10, 20);
 		 System.out.println(addResult);
 		
+		 S s = new S();
+		 int sResult = s.aa(10, 5);
+		 System.out.println(sResult);
+		 
 		
 	}
 
